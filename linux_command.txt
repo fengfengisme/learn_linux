@@ -1,0 +1,14 @@
+一、修改权限
+          u + r
+    chmod g - w   路径
+          0 = x
+          a   rwx
+    u表示所属人(user)、g表示所属组(group)、o表示其他人(other)、a表示全部(all)
+    r=4 读权限
+    w=2 写权限
+    x=1 执行权限
+    -=0 无该权限
+    chmod u+w test.c: 给文件test.c增加所属人写权限
+    chmod g-w test.c: 给文件test.c去除所属组写权限
+    chmod o=rx test.c: 给文件test.c修改为其他人读执行权限
+    chmod 765 test.c:
