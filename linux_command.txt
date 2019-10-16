@@ -12,3 +12,6 @@
     chmod g-w test.c: 给文件test.c去除所属组写权限
     chmod o=rx test.c: 给文件test.c修改为其他人读执行权限
     chmod 765 test.c:
+    chmod -R 777 testFolder: 递归修改文件夹testFloder中文件的权限
+二、删除
+    rm -rf <name>: 强制删除文件夹
