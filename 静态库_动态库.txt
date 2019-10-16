@@ -1,0 +1,7 @@
+一、静态库：
+g++ -c hello.cpp    // 生成hello.o的中间文件
+方法一：
+    ar rcs libhello.a hello.o   // 生成静态库libhello.a
+方法二：
+    ar crv libhello.a hello.o
+    ranlib libhello.a
